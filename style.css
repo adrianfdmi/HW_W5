@@ -1,0 +1,62 @@
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainHeader {
+    display: block;
+    flex-direction: column;
+    font-size: x-large;
+    justify-content:space-between;
+    text-align: center;
+    padding: 60px 10px 10px 10px;
+    margin: auto;
+}
+
+#clock {
+    display: block;
+    flex-direction: column;
+    font-size: xx-large;
+    justify-content:space-between;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+h2 {
+    display: block;
+    flex-direction: column;
+    font-size: xx-large;
+    justify-content:space-evenly;
+    text-align: center;
+    padding: auto;
+    margin: 500px;
+    border-spacing: 10px;
+}
+
+button {
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: large;
+    text-align: center;
+    padding: auto;
+    margin: 20px auto ;
+    border-spacing: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+button:hover {
+    background-color: green;
+    color: khaki;
+}
+
+button:active{
+    background-color: blue;
+    color: khaki;
+}
+
+button:focus{
+    background-color: teal;
+    color: khaki;
+}
